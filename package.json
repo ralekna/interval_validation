@@ -2,6 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "karma-jasmine": "npm:karma-jasmine@^0.3.6",
       "karma-jspm": "npm:karma-jspm@^1.1.5"
     },
     "devDependencies": {

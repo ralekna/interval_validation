@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'karma-jspm' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.39
+4 verbose cache add [ 'karma-jspm', null ]
+5 verbose cache add name=undefined spec="karma-jspm" args=["karma-jspm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'karma-jspm',
+6 verbose parsed url   path: 'karma-jspm',
+6 verbose parsed url   href: 'karma-jspm' }
+7 silly lockFile ae1e298f-karma-jspm karma-jspm
+8 verbose lock karma-jspm /home/rytis/.npm/ae1e298f-karma-jspm.lock
+9 silly lockFile ae1e298f-karma-jspm karma-jspm
+10 silly lockFile ae1e298f-karma-jspm karma-jspm
+11 verbose addNamed [ 'karma-jspm', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile da36114b-karma-jspm karma-jspm@
+14 verbose lock karma-jspm@ /home/rytis/.npm/da36114b-karma-jspm.lock
+15 silly addNameRange { name: 'karma-jspm', range: '*', hasData: false }
+16 verbose request where is /karma-jspm
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 1fbc7c1f580f69f5
+19 verbose url raw /karma-jspm
+20 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jspm' ]
+21 verbose url resolved https://registry.npmjs.org/karma-jspm
+22 verbose request where is https://registry.npmjs.org/karma-jspm
+23 info trying registry request attempt 1 at 16:50:38
+24 http GET https://registry.npmjs.org/karma-jspm
+25 http 200 https://registry.npmjs.org/karma-jspm
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"90FSGBFFPQNZL7YREOC9285VZ"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '19530',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 04 Jul 2015 13:50:39 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1436017838.794344,VS0,VE391',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'karma-jspm', range: '*', hasData: true }
+28 silly addNameRange versions [ 'karma-jspm',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.1.3',
+28 silly addNameRange     '1.1.4',
+28 silly addNameRange     '1.1.5' ] ]
+29 verbose addNamed [ 'karma-jspm', '1.1.5' ]
+30 verbose addNamed [ '1.1.5', '1.1.5' ]
+31 silly lockFile 3d286f1b-karma-jspm-1-1-5 karma-jspm@1.1.5
+32 verbose lock karma-jspm@1.1.5 /home/rytis/.npm/3d286f1b-karma-jspm-1-1-5.lock
+33 silly lockFile 3c6c7c12--karma-jspm-karma-jspm-1-1-5-tgz https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+34 verbose lock https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz /home/rytis/.npm/3c6c7c12--karma-jspm-karma-jspm-1-1-5-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz',
+35 verbose addRemoteTarball   '52bb63a5ed88ce6804453db77ea581e0cbbdbb12' ]
+36 info retry fetch attempt 1 at 16:50:39
+37 verbose fetch to= /tmp/npm-9436-LRzOctgi/registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+38 http GET https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+39 http 200 https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+40 silly lockFile 3c6c7c12--karma-jspm-karma-jspm-1-1-5-tgz https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+41 silly lockFile 3c6c7c12--karma-jspm-karma-jspm-1-1-5-tgz https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz
+42 silly lockFile 3d286f1b-karma-jspm-1-1-5 karma-jspm@1.1.5
+43 silly lockFile 3d286f1b-karma-jspm-1-1-5 karma-jspm@1.1.5
+44 silly lockFile da36114b-karma-jspm karma-jspm@
+45 silly lockFile da36114b-karma-jspm karma-jspm@
+46 silly resolved [ { name: 'karma-jspm',
+46 silly resolved     version: '1.1.5',
+46 silly resolved     description: 'Include jspm module loader for karma runs; allows dynamic loading of src and test files and modules',
+46 silly resolved     main: 'index.js',
+46 silly resolved     keywords: [ 'karma-plugin', 'karma-adapter', 'jspm' ],
+46 silly resolved     scripts: { test: 'gulp test' },
+46 silly resolved     author: { name: 'Max Peterson', email: 'maxwell.peterson@workiva.com' },
+46 silly resolved     contributors: [ [Object] ],
+46 silly resolved     license: 'Apache-2.0',
+46 silly resolved     repository: { type: 'git', url: 'git@github.com:Workiva/karma-jspm.git' },
+46 silly resolved     dependencies: { glob: '~3.2' },
+46 silly resolved     devDependencies: { gulp: '^3.8.7', 'gulp-jasmine': '^1.0.0' },
+46 silly resolved     gitHead: '4d3511e6d928ff6e6d8fa0d79249c46c6d3276bc',
+46 silly resolved     bugs: { url: 'https://github.com/Workiva/karma-jspm/issues' },
+46 silly resolved     homepage: 'https://github.com/Workiva/karma-jspm',
+46 silly resolved     _id: 'karma-jspm@1.1.5',
+46 silly resolved     _shasum: '52bb63a5ed88ce6804453db77ea581e0cbbdbb12',
+46 silly resolved     _from: 'karma-jspm@',
+46 silly resolved     _npmVersion: '1.4.28',
+46 silly resolved     _npmUser: { name: 'computmaxer', email: 'computmaxer@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '52bb63a5ed88ce6804453db77ea581e0cbbdbb12',
+46 silly resolved        tarball: 'http://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/karma-jspm/-/karma-jspm-1.1.5.tgz' } ]
+47 info install karma-jspm@1.1.5 into /usr/lib
+48 info installOne karma-jspm@1.1.5
+49 verbose lib/node_modules/karma-jspm unbuild
+50 verbose tar unpack /home/rytis/.npm/karma-jspm/1.1.5/package.tgz
+51 silly lockFile 1f90f700--usr-lib-node-modules-karma-jspm tar:///usr/lib/node_modules/karma-jspm
+52 verbose lock tar:///usr/lib/node_modules/karma-jspm /home/rytis/.npm/1f90f700--usr-lib-node-modules-karma-jspm.lock
+53 silly lockFile 0318e0c3-npm-karma-jspm-1-1-5-package-tgz tar:///home/rytis/.npm/karma-jspm/1.1.5/package.tgz
+54 verbose lock tar:///home/rytis/.npm/karma-jspm/1.1.5/package.tgz /home/rytis/.npm/0318e0c3-npm-karma-jspm-1-1-5-package-tgz.lock
+55 silly gunzTarPerm modes [ '775', '664' ]
+56 error Error: EACCES, mkdir '/usr/lib/node_modules/karma-jspm'
+56 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/karma-jspm']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/lib/node_modules/karma-jspm',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/lib/node_modules/karma-jspm',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 4.0.6-300.fc22.x86_64
+59 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "karma-jspm"
+60 error cwd /home/rytis/Job/interval_validation
+61 error node -v v0.10.39
+62 error npm -v 1.4.28
+63 error path /usr/lib/node_modules/karma-jspm
+64 error fstream_path /usr/lib/node_modules/karma-jspm
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/lib/node_modules/karma-jspm'
+70 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]

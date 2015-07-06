@@ -18,6 +18,7 @@ System.config({
     "babel": "npm:babel-core@5.6.15",
     "babel-runtime": "npm:babel-runtime@5.6.15",
     "core-js": "npm:core-js@0.9.18",
+    "karma-jasmine": "npm:karma-jasmine@0.3.6",
     "karma-jspm": "npm:karma-jspm@1.1.5",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -82,6 +83,16 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:jasmine-core@2.3.4": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:karma-jasmine@0.3.6": {
+      "jasmine-core": "npm:jasmine-core@2.3.4",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:karma-jspm@1.1.5": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
